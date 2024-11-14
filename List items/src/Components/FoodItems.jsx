@@ -1,7 +1,6 @@
 import Item from "./Item";
 
 const FoodItems = ({items}) =>{
-  let [activeItems, SetActiveitems] =useState([]);
     return(
     <ul className="list-group">
     {items.map((item) => (
